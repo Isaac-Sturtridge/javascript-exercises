@@ -8,7 +8,6 @@ const fibonacci = function(fibIndex) {
             let first = fibonacci[fibonacci.length - 2]
             let second = fibonacci[fibonacci.length - 1]
             fibonacci.push(first + second)
-            console.log(fibonacci)
         }
         return fibonacci[fibIndex]
     }
